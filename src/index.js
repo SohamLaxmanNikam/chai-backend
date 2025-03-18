@@ -9,6 +9,8 @@ import connectDB from './db/index.js';
 //     path:'./env'
 // })
 
+
+
 connectDB()
 .then(()=>{
     app.listen(process.env.PORT||8000,()=>{
